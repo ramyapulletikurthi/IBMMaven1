@@ -38,7 +38,6 @@ public class Crossbr {
 		driver.findElement(By.partialLinkText("Enter the Store")).click();
 		driver.findElement(By.partialLinkText("Sign In")).click();
 		driver.findElement(By.name("username")).sendKeys("admin");
-		
 		driver.findElement(By.name("password")).clear();
 		driver.findElement(By.name("password")).sendKeys("admin");
 		driver.findElement(By.name("signon")).click();
